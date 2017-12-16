@@ -1,0 +1,15 @@
+authtoken: 6hzKH8W5EuKAuREH1N9Mf_7zN3qKMhDfPqLhzoQLozE
+region: eu
+tunnels:
+  node_1:
+    addr: 2221
+    proto: tcp
+  node_2:
+    addr: 2222
+    proto: tcp
+  node_3:
+    addr: 2223
+    proto: tcp
+  node_4:
+    addr: 2224
+    proto: tcp

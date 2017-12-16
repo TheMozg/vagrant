@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# $1 - node index, 1-4
+# $1 - ngrok port
 if [ -z "$1" ]
 then
-    echo "ERROR: please specify node index"
+    echo "ERROR: please specify ngrok port"
     exit 1
 fi
 
-ssh -i vagrant_key -p 222$1 vagrant@themozg.ddns.net
+ssh -i vagrant_key -p $1 vagrant@0.tcp.eu.ngrok.io
