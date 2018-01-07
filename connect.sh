@@ -7,4 +7,5 @@ then
     exit 1
 fi
 
+chmod 600 vagrant_key
 ssh -i vagrant_key -p $1 vagrant@0.tcp.eu.ngrok.io
